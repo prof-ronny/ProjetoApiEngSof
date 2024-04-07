@@ -2,13 +2,10 @@
 
 namespace ProjetoApiEngSof.Model
 {
-    public class Administrador
+    public class Administrador: Usuario
     {
-        [Key]   
-        public Guid Id { get; set; }
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Autenticacao { get; set; }
 
+
+        string? Telefone { get; set; }
     }
 }

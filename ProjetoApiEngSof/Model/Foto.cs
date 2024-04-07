@@ -8,5 +8,8 @@ namespace ProjetoApiEngSof.Model
         public Guid Id { get; set; }        
         public string Nome { get; set; }
         public string Caminho { get; set; }
+
+        public virtual Formulario Formulario { get; set; }
+        
     }
 }
